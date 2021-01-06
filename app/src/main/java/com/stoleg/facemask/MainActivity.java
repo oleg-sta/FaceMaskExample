@@ -82,6 +82,8 @@ public class MainActivity extends Activity implements ModelLoaderTask.Callback, 
         }
         cameraView = findViewById(R.id.fd_fase_surface_view);
 
+        Settings.useLinear = true;
+        Settings.flagOrtho = true;
         if (!Static.libsLoaded) {
             compModel = new CompModel();
             compModel.context = getApplicationContext();

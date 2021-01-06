@@ -89,4 +89,9 @@ public class ShaderEffectMask extends ShaderEffect {
             ShaderEffectHelper.shaderEffect2dWholeScreen(poseResult.leftEye, poseResult.rightEye, texIn, noFaceProgramId, vPos, vTex);
         }
     }
+
+    @Override
+    public boolean needBlend() {
+        return true;
+    }
 }
