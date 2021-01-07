@@ -6,7 +6,7 @@ It's android example of Android application with Augmented Reality effects on fa
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=0Z_BvSqQvPc" target="_blank"><img src="http://img.youtube.com/vi/0Z_BvSqQvPc/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-Undsigned APK file could be downloaded here: https://drive.google.com/file/d/1pRe2OyKeeM5-DZbs3Xz9TyZ9xORk-JIO/view?usp=sharing don't. Please add permission to camera.
+Undsigned APK file could be downloaded here: https://drive.google.com/file/d/1pRe2OyKeeM5-DZbs3Xz9TyZ9xORk-JIO/view?usp=sharing . Please add permission to camera.
 
 This application uses [VrFace](https://github.com/oleg-sta/VrFace) library on Android.
 This project shows you how easily VrFace library could be used.
