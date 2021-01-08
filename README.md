@@ -13,8 +13,10 @@ This project shows you how easily VrFace library could be used.
 
 ## How to build?
 
-Put under directory `app/src/main/assets/` [file-model](http://dlib.net/files/) under the name sp68.dat. File size is about 70 Mbytes.
-Didn't want to put under source control. Need to fix build script to do it automatically. 
+Download model file from [directory](http://dlib.net/files/), for example [last one](http://dlib.net/files/dlib-19.9.zip).
+Unzip it. Rename it to `sp68.dat`, and put under directory `app/src/main/assets/`
+File size is about 70 Mbytes, that's why I didn't want to put under source control.
+Need to fix build script to do it automatically. 
 
 ## How it works?
 
