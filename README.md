@@ -20,9 +20,9 @@ Need to fix build script to do it automatically.
 
 ## How it works?
 
-It uses my submodule [VrFace](https://github.com/oleg-sta/VrFace).
-This library makes all the work.
-As it written in the library need to be implemented only:
+It uses my library [VrFace](https://github.com/oleg-sta/VrFace).
+This library makes all the work, please read description for more details.
+As it written in the library's description we  need to be implemented only:
 * [layout](app/src/main/res/layout/fast_view.xml) with `com.stoleg.vrface.camera.FastCameraView` for camera and `GLSurfaceView` for providing result
 * [MainActivity](app/src/main/java/com/stoleg/facemask/MainActivity.java) initialized GLSurfaceView, native library, added model for 3d face and model for points on the face
 * [ShaderEffectMask](app/src/main/java/com/stoleg/facemask/ShaderEffectMask.java) implements shaders effects with [shaders](app/src/main/assets/shaders)
