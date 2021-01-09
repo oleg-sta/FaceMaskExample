@@ -23,8 +23,8 @@ Need to fix build script to do it automatically.
 It uses my submodule [VrFace](https://github.com/oleg-sta/VrFace).
 This library makes all the work.
 As it written in the library need to be implemented only:
-* [layout](app/src/main/res/layout/fast_view.xml/fast_view.xml) with `com.stoleg.vrface.camera.FastCameraView` for camera and `GLSurfaceView` for providing result
+* [layout](app/src/main/res/layout/fast_view.xml) with `com.stoleg.vrface.camera.FastCameraView` for camera and `GLSurfaceView` for providing result
 * [MainActivity](app/src/main/java/com/stoleg/facemask/MainActivity.java) initialized GLSurfaceView, native library, added model for 3d face and model for points on the face
-* [ShaderEffectMask](app/src/main/java/com/stoleg/facemask/ShaderEffectMask.java) implements shaders effects with [shaders](app/src/main/assets/shaders/fss3d.glsl)
+* [ShaderEffectMask](app/src/main/java/com/stoleg/facemask/ShaderEffectMask.java) implements shaders effects with [shaders](app/src/main/assets/shaders)
  
 You could just fork it or clone it and add your own effect, you could try to add this library in your application for the effects.
