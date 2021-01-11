@@ -20,6 +20,9 @@ rename it to `sp68.dat`, and put under the directory `app/src/main/assets/`.
 File size is about 70 Mbytes, that's why I don't want to put it under source control.
 Need to fix build script to do it automatically. 
 
+**Note.** Loading model `sp68.dat` is very heavy task, it can take several seconds or dozen seconds to be uploaded.
+You could try to retrain model and decrease size and therefore size of the application and initialization time. 
+
 ## How it works?
 
 It uses my library [VrFace](https://github.com/oleg-sta/VrFace).
