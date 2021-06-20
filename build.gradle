@@ -16,12 +16,13 @@ allprojects {
     repositories {
         google()
         jcenter()
-//        flatDir {
-//            dirs 'src/main/libs'
         maven {
-            url "https://dl.bintray.com/olegst/maven"
+            url "https://maven.pkg.github.com/oleg-sta/VrFace"
+            credentials {
+               username GITHUB_USER
+               password GITHUB_TOKEN
+            }
         }
-//        }
     }
 }
 
