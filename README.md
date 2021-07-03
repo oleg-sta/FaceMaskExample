@@ -13,15 +13,21 @@ This project shows you how easily VrFace library could be used.
 
 ## How to build?
 
+Fork and clone this project.
 Download model file from http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2.
 Unzip it, like this `bzip2 -d shape_predictor_68_face_landmarks.dat.bz2`.
 As a result you should have file `shape_predictor_68_face_landmarks.dat`,
 rename it to `sp68.dat`, and put under the directory `app/src/main/assets/`.
-File size is about 70 Mbytes, that's why I don't want to put it under source control.
-Need to fix build script to do it automatically. 
+File size is about 70 Mbytes, that's why I don't want to put it under source control. 
 
 **Note.** Loading model `sp68.dat` is very heavy task, it can take several seconds or dozen seconds to be uploaded.
 You could try to retrain model and decrease size and therefore size of the application and initialization time. 
+
+Put your github credentials in gradle.properties<br/>
+GITHUB_USER=<br/>
+How to get your credential please read [here](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#authenticating-to-github-packages)
+
+Build application.
 
 ## How it works?
 
