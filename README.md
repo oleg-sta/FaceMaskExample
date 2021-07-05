@@ -27,7 +27,7 @@ File size is about 70 Mbytes, that's why I don't want to put it under source con
 **Note.** Loading model `sp68.dat` is very heavy task, it can take several seconds or dozen seconds to be uploaded.
 You could try to retrain model and decrease size and therefore size of the application and initialization time. 
 
-Create `local.properties` in root directory. Add two properties into file:
+Create `local.properties` in project root directory. Add two properties into file:
 ```
 GITHUB_USER=YOU_GITHUB_USER_NAME
 GITHUB_TOKEN=YOUR_GITHUB_TOKEN
