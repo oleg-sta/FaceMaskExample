@@ -12,6 +12,9 @@ buildscript {
     }
 }
 
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
 allprojects {
     repositories {
         google()
@@ -19,8 +22,8 @@ allprojects {
         maven {
             url "https://maven.pkg.github.com/oleg-sta/VrFace"
             credentials {
-               username GITHUB_USER
-               password GITHUB_TOKEN
+                username properties.getProperty('GITHUB_USER')
+                password properties.getProperty('GITHUB_TOKEN')
             }
         }
     }
